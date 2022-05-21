@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sals Game</title>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="startscreen">
+  <img src="./Assets/Screen Shot 2022-05-21 at 7.46.46 PM.png" alt="">
+
+    <button class="startgame" onclick="hideStart()">START</button>
+</div>
+
+  <div>
+
+    
+    <canvas id="fightScene" width="1280" height="720"></canvas>
+    <canvas id="game" width="1280" height="720" class=""></canvas>
+    
+
+  </div>
+
+
+  <div class="fightScreen">
+
+          
+             <div id="buttonBorder"></div>
+             <button id="attackBtn" onclick='attack()'>Attack</button>
+         
+
+     
+
+        <div id="playerHealth">
+            <div class="healthTxt"> HEALTH:</div>
+            <div class="healthNum" id="pHealthNum">100</div>
+        </div>
+
+        <div id="computerHealth">
+            <div class="CHealthTxt"> HEALTH:</div>
+            <div class="CHealthNum" id="cHealthNum">100</div>
+        </div>
+
+     </div>
+
+
+ 
+
+  <script src="app.js" async defer></script>
+</body>
+
+</html>

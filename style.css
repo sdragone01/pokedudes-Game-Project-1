@@ -1,0 +1,162 @@
+
+
+div{
+    position: relative;
+}
+
+#fightScene{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    background: url(./Assets/battleBackground.png);
+    background-color: aliceblue;
+    background-size: contain;
+    
+}
+
+.startscreen{
+    position: absolute;
+    left: 0;
+    margin-top: 50;
+    z-index: 9;
+    background-color: white;
+    width: 1280px;
+    height:720px;
+
+
+    background-size: contain;
+}
+.startgame{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 7;
+  
+}
+
+#startScreenHide {
+    display: none;
+}
+
+
+
+#game{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 7;
+    background:url(./Assets/inside\ home.bmp) ;
+    background-size: contain;
+      
+}
+
+.gameOutside{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    background:url(./Assets/poke1.bmp) ;
+    background-size: contain;
+      
+}
+
+.hideGame{
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    background:url(./Assets/poke1.bmp) ;
+    background-size: contain;
+      
+}
+
+    
+
+
+
+#buttonBorder{
+    position: absolute;
+    background: white;
+    width: 1000px;
+    height: 150px;
+    z-index: 2;
+    margin-top: 520px;
+    margin-left: 30px;
+    border: 10px solid black;
+}
+
+button{
+position: absolute;
+z-index: 3;
+width: 950px;
+height: 100px;
+margin-top: 555px;
+margin-left: 65px;
+
+}
+
+#playerHealth{
+    position: absolute;
+z-index: 4;
+    background: white;
+  opacity: 50%;
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+    width: 500px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 15px;
+    
+    font-size: 50px;
+    font-family: monospace;
+
+}
+
+.healthTxt{
+    position: absolute;
+z-index: 6;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.healthNum{
+    position: absolute;
+z-index: 6;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+
+
+
+#computerHealth{
+    position: absolute;
+z-index: 5;
+    background: white;
+  opacity: 50%;
+    border-right: 5px solid black;
+    border-bottom: 5px solid black;
+    width: 500px;
+    height: 100px;
+    margin-top: 350px;
+    margin-left: 750px;
+    font-size: 50px;
+    font-family: monospace;
+}
+
+.CHealthTxt{
+    position: absolute;
+z-index: 6;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.CHealthNum{
+    position: absolute;
+z-index: 6;
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+
+
